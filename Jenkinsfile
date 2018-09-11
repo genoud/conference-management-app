@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'genoud6/sfdx-ci:v1.0' } }
+    agent { docker { image 'genoud6/sfdx-ci:v1.1' } }
     stages {
         stage('build') {
             steps {
