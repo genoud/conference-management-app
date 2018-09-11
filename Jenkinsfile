@@ -1,9 +1,14 @@
 pipeline {
-    agent { docker { image 'maven:3.3.3' } }
+    agent { docker { image 'genoud6/sfdx-ci:v1.0' } }
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version'
+                sh 'node --version'
+                sh 'npm --version'
+                sh 'java -version'
+                sh 'ant -version'
+                sh 'sfdx --version'
+                
             }
         }
     }
