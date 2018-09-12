@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'node --version'
+                sh "whoami"
                 sh 'npm --version'
                 sh 'java -version'
                 sh 'ant -version'
