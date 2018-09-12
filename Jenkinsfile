@@ -13,6 +13,8 @@ pipeline {
                 sh 'ant -version'
                 sh 'sfdx --version'
             }
+        }
+         stage('test') {
             steps {
                 sh 'sfdx force:source:convert -r force-app -d mdapi'
             }
