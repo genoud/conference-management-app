@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         docker { 
-            image 'genoud6/sfdx-ci:v1.1' ,
+            image 'genoud6/sfdx-ci:v1.1'
             args '-u root'
         } 
     }
