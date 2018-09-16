@@ -1,0 +1,1 @@
+alias pmd="/usr/local/pmd-bin-6.7.0/bin/run.sh pmd"
