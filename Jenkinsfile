@@ -17,6 +17,7 @@ pipeline {
         stage('test') {
             steps {
                 sh 'echo run test'
+            }
         }
         stage('analyse') {
             steps {
