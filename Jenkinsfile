@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         docker { 
-            image 'genoud6/sfdx-ci:v1.1'
+            image 'genoud6/sfdx-ci:v1.2'
             args '-u root'
         } 
     }
@@ -14,9 +14,14 @@ pipeline {
                 sh 'sfdx --version'
             }
         }
-         stage('test') {
+        stage('test') {
             steps {
-                sh 'sfdx force:source:convert -r force-app -d mdapi'
+                sh 'echo run test'
+        }
+        stage('analyse') {
+            steps {
+                sh 'mkdir report'
+                sh 'pmd -d force-app -l apex -reportfile report/output.csv -f csv -R config/ruleset.xml'
             }
         }
     }

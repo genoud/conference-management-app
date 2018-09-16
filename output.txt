@@ -1,0 +1,19 @@
+/home/magloire/conference-management-app/force-app/main/default/classes/AttachmentController.cls:1:	Apex classes should declare a sharing model if DML or SOQL is used
+/home/magloire/conference-management-app/force-app/main/default/classes/AttachmentController.cls:5:	Validate CRUD permission before SOQL/DML operation
+/home/magloire/conference-management-app/force-app/main/default/classes/AttachmentController.cls:9:	Validate CRUD permission before SOQL/DML operation
+/home/magloire/conference-management-app/force-app/main/default/classes/AttachmentController.cls:11:	Validate CRUD permission before SOQL/DML operation
+/home/magloire/conference-management-app/force-app/main/default/classes/AttachmentController.cls:13:	Validate CRUD permission before SOQL/DML operation
+/home/magloire/conference-management-app/force-app/main/default/classes/AttachmentController.cls:13:	Validate CRUD permission before SOQL/DML operation
+/home/magloire/conference-management-app/force-app/main/default/classes/SendReminderEmail.cls:1:	Avoid using global modifier
+/home/magloire/conference-management-app/force-app/main/default/classes/SendReminderEmail.cls:28:	Avoid empty block statements.
+/home/magloire/conference-management-app/force-app/main/default/classes/TestRejectDoubleBooking.cls:3:	Method names should not start with capital letters
+/home/magloire/conference-management-app/force-app/main/default/classes/TestRejectDoubleBooking.cls:15:	Method names should not start with capital letters
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:1:	Avoid logic in triggers
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:4:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'requested_bookings' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:12:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'related_sessions' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:13:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'related_session' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:17:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'related_speakers' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:19:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'requested_session_speaker' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'booking_time' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/RejectDoubleBooking.trigger:21:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'related_speaker' is not final.
+/home/magloire/conference-management-app/force-app/main/default/triggers/SendConfirmationEmail.trigger:1:	Avoid logic in triggers
