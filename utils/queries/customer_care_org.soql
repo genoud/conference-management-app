@@ -1,0 +1,3 @@
+SELECT Name, CurrencyIsoCode, Country__c, Email_cosmeto_vigilance__c, Escalation_email__c, Queue_Name__c, 
+Structured_CAD__c, Transfer_email__c, Uses_Consumer1_Platform__c, Administration_perimeter__c, Factory_contact__c, 
+T_CaseRecordType__c, Opening_Times__c FROM  Customer_Care_Org__c limit  5

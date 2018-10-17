@@ -1,0 +1,11 @@
+SELECT Id, LastName, FirstName, Salutation, Type, BillingStreet, BillingCity, BillingState, BillingPostalCode, 
+BillingCountry, BillingLatitude, BillingLongitude, BillingGeocodeAccuracy, ShippingStreet, ShippingCity, 
+ShippingState, ShippingPostalCode, ShippingCountry, ShippingLatitude, ShippingLongitude, ShippingGeocodeAccuracy, 
+Phone, Website, Industry, NumberOfEmployees, Description, CurrencyIsoCode, PersonMailingStreet, PersonMailingCity, 
+PersonMailingState, PersonMailingPostalCode, PersonMailingCountry, PersonMailingLatitude, PersonMailingLongitude, 
+PersonMailingGeocodeAccuracy, PersonMobilePhone, PersonEmail, PersonTitle, PersonDepartment, 
+PersonEmailBouncedReason, PersonEmailBouncedDate, Email__c, Email_validity__c, Generic_contact__c, 
+Id_integration__c, Number_of_order__c, SSN_ID_number__c, T_Brand_Country_code_couples__c, Language__c, 
+MBL_Client__c, MBL_Optin_email__c, MBL_Recruitment_Date__c, CC_ID_Coheris__c, Email_hash__c, 
+T_Without_name_DE_process__c, Type_for_DE__c, Last500FUpdate__c, LA_Brand__c, LA_Country__c, 
+Gender__pc, Middle_name__pc, Nationality__pc, Second_last_name__pc FROM  Account limit  5

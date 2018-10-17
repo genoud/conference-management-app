@@ -1,0 +1,1 @@
+SELECT Name, CurrencyIsoCode, T_ExternalID__c FROM  Case_reason_solutions__c limit  5

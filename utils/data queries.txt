@@ -1,0 +1,27 @@
+#Retrieve metadata from sandbox
+sfdx force:mdapi:retrieve  -r customer-care-mdapi -u sandbox -k customer-care-mdapi\package.xml
+# or 
+sfdx force:mdapi:retrieve  -r mdapi-project -u sandbox -k mdapi-project\package.xml
+
+
+# Export required data
+sfdx force:data:tree:export -q "select ID, Name, ParentRoleId, RollupDescription, OpportunityAccessForAccountOwner, CaseAccessForAccountOwner,DeveloperName, PortalType From UserRole LIMIT 200" -x export -d data -u sandbox
+
+sfdx force:data:tree:export -q "select ID, Name, Type, Email, DoesSendEmailToMembers, DoesIncludeBosses From Group Where Type='Queue' LIMIT 200" -x export -d data -u sandbox
+
+sfdx force:data:tree:export -q  "select ID, IsoCode, ConversionRate, DecimalPlaces, IsActive, IsCorporate From CurrencyType " -x export -d data -u sandbox
+
+
+sfdx force:data:tree:export -q "SELECT Username, LastName, FirstName, Name, CompanyName,Title, Email, Alias, ProfileId FROM User WHERE name='Interface Informatica' limit 1" -x export -d data -u sandbox
+
+sfdx force:data:tree:export -q "SELECT ID, Name, Description FROM Profile WHERE ID='00e20000001AkfzAAC'" -x export -d data -u sandbox
+
+
+
+
+#Import required data 
+sfdx force:data:tree:import -f data\export-UserRole.json -u TEST
+
+sfdx force:data:tree:import -f data\export-Group.json -u TEST
+
+sfdx force:data:tree:import -f data\export-CurrencyType.json -u TEST

@@ -1,0 +1,4 @@
+{
+  "commandDescription": "Enable a feature on the scratch Org. Supported feature are [Community]",
+  "featureNameFlagDescription": "The Name of the feature to enable (Community For example)"
+}

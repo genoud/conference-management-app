@@ -1,0 +1,6 @@
+{
+    "commandDescription": "Synchronize profiles from the server and reconcile them with the components in the project.",
+    "folderFlagDescription": "Comma separated list of folders to scan for profiles. If ommited, the modules in the plugin configuration will be used. If you want to exclude a module from being parsed, set excludeReconcile to true. This folder is also used for reconciliation. So the synchronized profiles will be clean up to keep only configurations of components that are present in these folders",
+    "profileListFlagDescription": "Comma separated list of profiles. If ommited, all the profiles found in the folder will be synchronized",
+    "noreconcileFlagDescription": "Set this flag if you don't want the synchronized profiles componsnet to be reconcile."
+}

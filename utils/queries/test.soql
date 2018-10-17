@@ -1,0 +1,1 @@
+SELECT ID, Name, CurrencyIsoCode, Administration_perimeter__c, Language__c, T_ExternalID__c, Type__c, TECH_AlwaysDisplay__c FROM  Solution__c limit  20

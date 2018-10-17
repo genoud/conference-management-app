@@ -1,0 +1,5 @@
+{
+    "commandDescription": "complete permission set based on component present in the source folder. ",
+    "folderFlagDescription": "sfdx source folder that will be parsed to populate the permission set",
+    "nameFlagDescription": "name of the permission set that will be completed"
+}

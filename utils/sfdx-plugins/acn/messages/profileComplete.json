@@ -1,0 +1,5 @@
+{
+    "commandDescription": "complete profile permission based on component present in the source folder. All profiles(by default) or one specific profile are/is updated according to the source folder. If the folder contains a file whose permission is not in the profile.xml file, that permission is added to it.",
+    "folderFlagDescription": "the folders to scan. A comma separated list of folders can also be provided.",
+    "profileFlagDescription": "the name of the profile to which the permissions should be added"
+}

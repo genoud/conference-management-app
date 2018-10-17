@@ -1,0 +1,4 @@
+{
+  "commandDescription": "Build the project for deployment. This command put together all module folder into a single folder.",
+  "outputFolderDescription": "Build output folder"
+}

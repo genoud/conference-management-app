@@ -1,0 +1,5 @@
+{
+    "commandDescription": "reconcile all permission sets with the components present in the source folder. If a permission set contains a permission on an object that is not in the source folder, that permission is removed.",
+    "folderFlagDescription": "the folders to scan. You can provide a comma separated list of folder",
+    "nameFlagDescription": "name of the permission set that will be completed"
+}

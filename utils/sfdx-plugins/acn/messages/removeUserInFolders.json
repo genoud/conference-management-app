@@ -1,0 +1,4 @@
+{
+    "commandDescription": "remove reference to users in folders",
+    "folderFlagDescription": "the folders to scan. You can provide a comma separated list of folder"
+}

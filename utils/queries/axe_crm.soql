@@ -1,0 +1,10 @@
+SELECT Name, CurrencyIsoCode, Active__c, Source__c, T_ExternalID__c, 
+( SELECT Name, CurrencyIsoCode, Active__c, Source__c, T_ExternalID__c, Business_Axis__c FROM AXE_Sous_Axe_SAP__r ), 
+( SELECT Name, CurrencyIsoCode, Axis__c, Franchise__c, Product_name__c, Product_picture_URL_c__c, 
+Product_signature__c, Product_subtitle__c, Sub_axis__c, Subtitle__c, T_Product_EAN_code__c, 
+Variant_name__c, Description__c, Product_page_URL__c, Product_size__c, Unit_price__c, Capacity__c, 
+Creation_date__c, Dim_code__c, Factory_code__c, Factory_origin__c, Formula_number__c, MPG__c, 
+Packaging__c, Product_category__c, Product_type__c, SAP_code__c, Sales_closed_date__c, Sales_open_date__c, 
+Sales_org__c, Source__c, Status__c, Sub_product_category__c, Unit__c, Valprostatus__c, CCare_Product_name__c,
+ Business_Description__c, NewStatus__c, Product_PZN__c FROM Products_EAN__r ) 
+ FROM  Axe_CRM__c limit  20

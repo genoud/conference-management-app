@@ -1,0 +1,3 @@
+
+SELECT Id, Name, CurrencyIsoCode, Administration_perimeter__c, Language__c, 
+T_ExternalID__c, Type__c, TECH_AlwaysDisplay__c, RecordType.DeveloperName FROM  Solution__c WHERE RecordType.DeveloperName='Solution_DACH' limit  20

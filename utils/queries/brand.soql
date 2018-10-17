@@ -1,0 +1,7 @@
+
+SELECT Name, CurrencyIsoCode, Code__c, T_Code_CoreSystem__c, T_Code_Mars__c, T_Code__c, Division__c, 
+T_Code_MBL__c, Active__c, T_Code_Webform__c, CCare_Brand_Phone__c, Commercial_Name__c, LegalMentionFR__c, 
+Signature_FR__c, Static_Resource__c, T_Code_Webform_FR__c, T_Email_ECOM_LUXE__c, T_Email_France__c, 
+T_Email_template_logo__c, T_Luxe_Template_Images__c, Website_Prefix__c, Website__c, T_Code_Webform_DACH__c, isDach__c, 
+( SELECT Name, CurrencyIsoCode, Active__c, Source__c, T_ExternalID__c FROM Product_Lines__r ) 
+FROM  Brand__c limit  20

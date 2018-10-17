@@ -1,0 +1,6 @@
+{
+    "commandDescription": "Synchronize permission sets from the server ",
+    "folderFlagDescription": "Comma separated list of folders to scan for permission sets. If ommited, the module present in the plugin configuration will be used. If you want to exclude a module from being parsed, set excludeReconcile to true. This folder is also used for reconciliation when the flag is set. So the synchronized permission sets will be clean up to keep only configuration that are present in these folders",
+    "permissionSetListFlagDescription": "Comma separated list of permission sets. If ommited, all the permission sets found in the folder will be synchronized",
+    "noreconcileFlagDescription": "Set this flag if you don't want the synchronized permission set componsnet to be reconcile."
+}

@@ -1,0 +1,6 @@
+{
+  "commandDescription": "Build test data",
+  "dataConfigDescription": "Data sctructure description file",
+  "outputFolderDescription": "Test data output folder",
+  "queryFolderDescription": "Folder that contains query on SObjects. The query must be named with the SObjectType Name Like Account.soql"
+}

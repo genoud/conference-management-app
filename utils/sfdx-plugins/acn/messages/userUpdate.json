@@ -1,0 +1,5 @@
+{
+  "commandDescription": "Help update fields on the current user. Usefull if aded some bypass fields on the user object.",
+  "fieldNameDescription": "The field to update",
+  "valueDescription": "The value of the field"
+}

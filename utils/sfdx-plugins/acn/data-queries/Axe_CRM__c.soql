@@ -1,0 +1,1 @@
+SELECT Id, Name, CurrencyIsoCode, Active__c, Source__c, T_ExternalID__c FROM  Axe_CRM__c limit  20

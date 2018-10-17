@@ -1,0 +1,4 @@
+SELECT Name, CurrencyIsoCode, Code__c, Country__c, FR_label__c, Level_1_order__c, T_reaso_path__c, 
+Administration_Perimeter__c, T_reason_path_FR__c, Has_No_Child__c, NL_Label__c, DACH_label__c, 
+( SELECT Name, CurrencyIsoCode, T_ExternalID__c FROM Case_reason_Solutions__r) , RecordType.DeveloperName 
+FROM  Case_Reason__c WHERE RecordType.DeveloperName ='DACH' limit  20

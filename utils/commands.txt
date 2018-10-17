@@ -1,0 +1,14 @@
+sfdx force:apex:execute -f utils\DeleteData.apex -u test-prod8
+
+sfdx force:apex:execute -f utils\QueryBuilders\CaseQueryBuilder.apex -u sandbox  > utils\debugCase2.txt
+
+sfdx force:data:tree:export -q utils\queries\account.soql -x export -d data-plan2\account -p -u uat
+
+sfdx force:data:tree:import -p data-plan2\account\export-Account-plan.json -u test-prod8
+
+sfdx force:apex:execute -f utils\QueryBuilders\Case_ReasonQueryBuilder.apex -u sandbox  > utils\debugCase_Reason.txt
+
+sfdx force:data:tree:export -q utils\queries\case_reason.soql -x export -d data-plan2\case_reason -p -u uat
+
+sfdx force:data:tree:import -p data-plan2\case_reason\export-Case_Reason__c-Case_reason_solutions__c-plan.json -u test-prod8
+

@@ -1,0 +1,1 @@
+SELECT Id, Name, ProductLine__c, Active__c, Source__c, T_ExternalId__c FROM Sub_product_line__c LIMIT 20

@@ -1,0 +1,4 @@
+{
+  "commandDescription": "reconcile all the profile with the component present in the source folder. If a profile containe a permission on a object that is not in the source folde, that permission is removed.",
+  "folderFlagDescription": "the folders to Scan. You can provide a comma separated list of folder"
+}

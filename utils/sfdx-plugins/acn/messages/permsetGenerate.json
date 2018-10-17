@@ -1,0 +1,9 @@
+{
+  "commandDescription": "generate a PermissionSet component that give access to all components in the source folder.",
+  "nameFlagDescription": "name of the PermisionSet That will be generated",
+  "folderFlagDescription": "sfdx source folder that will be parsed to populate the permissionSet",
+  "sampleFolderDescription": "name of the sample folder that will be used as input",
+  "outputFolderDescription": "name of the output folder that will contain the modified files",
+  "diffFileDescription": "name of the file which shows changes between commits",
+  "encodingDescription": "encoding of the file"
+}

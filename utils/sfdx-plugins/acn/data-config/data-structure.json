@@ -1,0 +1,28 @@
+[
+    {
+        "sobject": "Solution__c",
+        "hasRecordType": true,
+        "parents": []
+    },
+    {
+        "sobject": "Account",
+        "hasRecordType": true,
+        "parents": []
+    },
+    {
+        "sobject": "Axe_CRM__c",
+        "hasRecordType": false,
+        "parents": []
+    },
+    {
+        "sobject": "Axe_sous_axe__c",
+        "hasRecordType": false,
+        "parents": [
+            {
+                "FieldName": "Axe_CRM__c",
+                "SobjectType": "Axe_CRM__c"
+            }
+            
+        ]
+    }
+]

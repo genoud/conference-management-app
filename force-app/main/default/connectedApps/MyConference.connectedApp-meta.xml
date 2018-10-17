@@ -4,7 +4,6 @@
     <label>MyConference</label>
     <oauthConfig>
         <callbackUrl>https://mag-conference.herokuapp.com/oauthcallback.html</callbackUrl>
-        <consumerKey>3MVG9dZJodJWITStmiRz_gAErzPg2.B0U9PoV9MO9Cp6fH5alNDUJz_vOOlJljTf71xGt681.JS9s6yCH2YR8</consumerKey>
         <scopes>Full</scopes>
     </oauthConfig>
 </ConnectedApp>

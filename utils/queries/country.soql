@@ -1,0 +1,4 @@
+SELECT Name, CurrencyIsoCode, Code__c, T_Code_CoreSystem__c, T_Code_Mars__c, T_Code__c, Zone__c, 
+T_Code_Demandware__c, T_Code_Webform__c, T_IsProfiling__c, 
+( SELECT Name, CurrencyIsoCode, Brand_Code__c, T_CountryCode__c FROM Country_Brands__r ) 
+FROM  Country__c limit  20
