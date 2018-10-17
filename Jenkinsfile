@@ -277,7 +277,7 @@ node {
         }
     }
     catch(err){
-        echo "Build fail:  ${err} ${currentBuild.absoluteUrl}"
+        //echo "Build fail:  ${err} ${currentBuild.absoluteUrl}"
         BUILD_STATUS='FAILURE'
         currentBuild.result = 'FAILURE'
         error 'Build failled'
