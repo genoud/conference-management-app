@@ -110,3 +110,5 @@ RUN echo 'alias pmd="/usr/local/pmd-bin-6.7.0/bin/run.sh pmd"' >> ~/.bashrc
 RUN echo -e '#!/bin/bash\n/usr/local/pmd-bin-6.7.0/bin/run.sh pmd "$@"' > /usr/bin/pmd && \
     chmod +x /usr/bin/pmd
 
+RUN ssh-keygen -t rsa -b 4096 -C "magloiredjatio@gmail.com"
+

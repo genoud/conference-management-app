@@ -285,7 +285,8 @@ node {
     }
     finally{
 
-        
+        echo "Sent email"
+        /*
         def authorEmail = sh returnStdout: true, script: 'git log -1 --format="%ae"'
         def ccEmails=env.CC_EMAILS.replaceAll(';',', cc:')
 
@@ -294,17 +295,8 @@ node {
         def templatePath="${env.WORKSPACE}/config/groovy-html.template"
         def emailBody="\${SCRIPT, template=\"${templatePath}\"}"
    
-
-        emailext  attachLog: true, 
-            attachmentsPattern: 'dist/**/*.deployment.zip',
-            body: "${emailBody}",
-            //body: '''${SCRIPT, template="${env.WORKSPACE}/config/test-email-html.template"}''',
-            mimeType: 'text/html',
-            subject: "[Jenkins] ${jobName}",
-            to: "${mailRecipients}",
-            replyTo: "${mailRecipients}",
-            recipientProviders: [[$class: 'CulpritsRecipientProvider'], [$class: 'DevelopersRecipientProvider'], [$class: 'RequesterRecipientProvider']]
-        
+*/
+    
         cleanWs notFailBuild: false
     }
    
